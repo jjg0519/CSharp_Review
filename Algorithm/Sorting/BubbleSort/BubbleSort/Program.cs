@@ -25,7 +25,7 @@ namespace BubbleSort
         /// <param name="array"></param>
         static void Sorting(int[] array)
         {
-            for (int i = 0; i < array.Length; i++)
+            for (int i = 0; i < array.Length - 1; i++)
             {
                 for (int j = 0; j < array.Length - 1 - i; j++)
                 {
