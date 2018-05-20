@@ -25,7 +25,7 @@ namespace InsertSort
         /// <param name="array"></param>
         static void Sorting(int[] array)
         {
-            for (int i = 0; i < array.Length; i++)
+            for (int i = 0; i < array.Length - 1; i++)
             {
                 //保存当前位置的元素，此时[0,...,i-1]处的元素都已有序
                 int temp = array[i];
